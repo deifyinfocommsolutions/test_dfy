@@ -124,6 +124,7 @@ then
 	echo "DB_USER= $db_user" | tee -a "$final_path/db_info.txt"
 	echo "DB_PASSWORD= $db_pwd" | tee -a "$final_path/db_info.txt"
 	echo "DB_HOST= localhost" | tee -a "$final_path/db_info.txt"
+	echo "Email= $admin@$domain" | tee -a "$final_path/db_info.txt"
 fi
 
 
